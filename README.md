@@ -17,10 +17,6 @@ The NBA Game Day Notifications System is a cloud-based solution that provides re
 
 ---
 
-## **Technical Architecture**
-![nba_API](https://github.com/user-attachments/assets/5e19635e-0685-4c07-9601-330f7d1231f9)
-
-
 ---
 
 
