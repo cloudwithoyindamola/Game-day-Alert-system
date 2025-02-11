@@ -29,6 +29,9 @@ The NBA Game Day Notifications System is a cloud-based solution that provides re
   - Least privilege policies for Lambda, SNS, and EventBridge.
 
 ---
+## **Project Architecture**
+
+![](Alert-System-Architecture.jpg)
 
 ## **Project Structure**
 ```bash
@@ -91,7 +94,7 @@ cd Game-day-Alert-system
 3. Select AWS Service and choose Lambda.
 4. Attach the following policies:
 - SNS Publish Policy (gda_sns_policy) (created in the previous step).
-- Lambda Basic Execution Role (AWSLambdaBasicExecutionRole) (an AWS managed policy).
+- Lambda Basic Execution Role (AWSLambdaBasicExecutionRole) (an AWS-managed policy).
 5. Click Next: Tags (you can skip adding tags).
 6. Click Next: Review.
 7. Enter a name for the role (e.g., gda_role).
